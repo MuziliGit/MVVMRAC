@@ -20,11 +20,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
-    UIButton *btn = [[UIButton alloc] initWithFrame:self.view.frame];
-    [btn setBackgroundColor:[UIColor whiteColor]];
-    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    // 单纯的测试
+//    UIButton *btn = [[UIButton alloc] initWithFrame:self.view.frame];
+//    [btn setBackgroundColor:[UIColor whiteColor]];
+//    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:btn];
     
     NSArray  *array = [NSArray array];
     NSString *string = [array objectAtIndex:1];
